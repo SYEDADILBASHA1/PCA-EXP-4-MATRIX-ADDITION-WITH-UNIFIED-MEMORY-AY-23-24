@@ -39,7 +39,6 @@ Allocate Host Memory
 22.	Reset the device using cudaDeviceReset and return from the main function.
 
 ## PROGRAM:
-<h3>With Memset()</h3>
 ```
 With Memset()
 %%cuda
@@ -280,7 +279,7 @@ int main(int argc, char **argv)
     return (0);
 }
 ```
-<h3>Without Memset()</h3>
+Without Memset()
 ```
 %%cuda
 #include <stdio.h>
